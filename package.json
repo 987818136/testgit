@@ -49,7 +49,10 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {},
+    "rules": {
+      "space-before-function-paren": "off",
+      "comma-dangle": "off"
+    },
     "overrides": [
       {
         "files": [
